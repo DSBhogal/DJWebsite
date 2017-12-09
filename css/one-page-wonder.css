@@ -101,12 +101,12 @@ video#bgVideo {
 }
 
 @media (max-width: 1200px) {
-    .visible-sm {
+    .visible-md {
         display: block !important;
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1201px) {
     .visible-lg {
         display: block !important;
     }
