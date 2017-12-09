@@ -1,0 +1,134 @@
+/*!
+ * Start Bootstrap - One Page Wonder (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 10px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 10px;
+  }
+}
+
+.navbar-dark .navbar-toggler 
+{
+    border-color:black;
+}
+
+.navbar-dark .navbar-toggler-icon{
+    background-color:black;
+}
+
+header.masthead {
+    /*background: url('../Images/DJHarjPromo.mp4') center center scroll;*/
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    align-content: center;
+}
+
+header.masthead>.overlay {
+  padding: 5rem 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 992px) {
+  header.masthead>.overlay {
+    padding: 10rem 0;
+  }
+}
+
+video#bgVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.navbar-collapse {
+    max-height: 340px;
+    overflow-x: visible;
+    padding-right: 15px;
+    border-top: 1px solid transparent;
+    -webkit-overflow-scrolling: touch;
+}
+
+.navbar-collapse.in {
+    overflow-y: auto;
+}
+
+.navbar-toggle:focus {
+    outline: none;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color:black;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+
+.navbar-toggle {
+    border-color:transparent;
+    background-color:transparent;
+}
+
+.menuitem {
+    padding-top:10px;
+}
+
+.visible-sm,
+.visible-md,
+.visible-lg {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .visible-sm {
+        display: block !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .visible-sm {
+        display: block !important;
+    }
+}
+
+@media (min-width: 1300px) {
+    .visible-lg {
+        display: block !important;
+    }
+}
+
+/*@media (min-width: 768px) {
+    .visible-md {
+        display: block !important;
+    }
+}
+
+@media (min-width: 900px) {
+    .visible-lg {
+        display: block !important;
+    }
+}
+
+@media (max-width: 2000px) {
+    .visible-lg {
+        display: block !important;
+    }
+}*/
+#Logo {
+    width: 125px;
+}
